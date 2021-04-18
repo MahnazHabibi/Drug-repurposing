@@ -1,0 +1,13 @@
+function[Features_Matrix]=Topological_features(Adj,Set,Process,T)
+ibp=IBP(Process,Set);
+Features_Matrix=ibp';
+dr=DR(Adj,Set,T);
+Features_Matrix(:,2)=dr';
+an=AN(Adj,Set);
+Features_Matrix(:,3)=an';
+d=D(Adj,Set,T);
+Features_Matrix(:,4)=d';
+md=MD(Adj,Set,T);
+Features_Matrix(:,5)=md';
+p_ibp=P_IBP(Adj,Set,Process);
+Features_Matrix(:,6)=p_ibp';
