@@ -21,7 +21,7 @@ File "pathway related essential genes.xlsx" contains top significantly enrichmen
 
 
 
-To calculate 4 topological and 2 statistical features of proteins from PPI networks. We use an algorithm "Topological_Network.m" code. to run the procedure follow the Read_me.txt steps. See the output of Algorithm in "Output.txt" file. Two other features (Cov(v) and ClD(v)) are calculated by a Covid-Drug and Clinical-Drug groups reported in DrugBank.
+To calculate 4 topological and 2 statistical features of proteins from PPI networks. We use an algorithm "Topological_Network.m" code. to run the procedure follow the "Read_me.txt" steps. See the output of Algorithm in "Output.txt" file. Two other features (Cov(v) and ClD(v)) are calculated by a Covid-Drug and Clinical-Drug groups reported in DrugBank.
 
 Next, we identify proteins in our candidate set that are associated with some underlying diseases related to COVID-19. We select 35 proteins as a final set of essential proteins related to disease pathology. To access the 35 proteins see essential genes related to covid-19 pathology.xlsx file.
 
