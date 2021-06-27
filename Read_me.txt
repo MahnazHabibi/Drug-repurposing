@@ -6,7 +6,7 @@ Corresponding author: Mahnaz Habibi (Email: mhabibi@ipm.ir)
 
 
 If you want to find the topological features in new dataset, please
-organize your input#1 file in the following format:
+prepare your input#1 file in the following format:
 
 protein#1	protein#2
 ---	---
@@ -17,7 +17,7 @@ protein#1	protein#2
 				
 Each row refers to one protein interaction pair.
 =============
-Please organize your input#2 file in the following format:
+Please prepare your input#2 file in the following format:
 
 protein#1
 ---
@@ -28,7 +28,7 @@ protein#1
 				
 Each row refers to a human protein as a drug target.
 =============
-Please organize your input#3 file in the following format:
+Please prepare your input#3 file in the following format:
 
 protein#1
 ---
@@ -39,7 +39,7 @@ protein#1
 				
 Each row refers a human protein that interact with proteins of virus.
 =============
-Please organize your input#4 file in the following format:
+Please prepare your input#4 file in the following format:
 
 Biological_Process,protein#1,protein#2,protein#3,
 ---
