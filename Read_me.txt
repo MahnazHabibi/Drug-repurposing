@@ -81,7 +81,7 @@ Finally, you will see the following on the command line--
 "Please enter the name of output file: "
 For example: 'Output.txt'
 
-The output  contain the set of all target proteins  and their topological and statisticl features in "Output.txt" file can be found .
+The output file  contains the set of all target proteins  and their topological and statistical features.
 
 ==============
 
